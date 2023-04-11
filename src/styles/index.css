@@ -1,0 +1,32 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Mynerve&display=swap');
+
+body {
+  background-color: darkmagenta;
+  animation: blinkingBackground 2s infinite 
+}
+
+marquee {
+  color:chartreuse;
+  font-size: 80px;
+  font-family: 'Mynerve', cursive;
+}
+ section.one img {
+  width: 80%;
+  ;
+ }
+ section.two img {
+  width: 5%;
+  transition: transform 20s ease-in-out;
+  transform: scale(20);
+ }
+
+ section.three img:hover {
+  width: 100%;
+  filter: invert();
+ }
+
+ section.four img {
+  width: 40%;
+  filter: brightness(60%);
+ }
